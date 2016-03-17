@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Color Support">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Graphical Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Hook Manager">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Instance Manager">
+      <UniqueIdentifier>{41deb1f8-ac69-4e62-aeed-b54cb2fe38e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging Support">
+      <UniqueIdentifier>{cc992688-0cd7-4a0e-989e-3fcf5b530603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet Support">
+      <UniqueIdentifier>{9518ddbd-e93a-4d46-accf-5b592da58f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String Support">
+      <UniqueIdentifier>{263b7dfa-8414-41d2-928d-c556d1a16a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface">
+      <UniqueIdentifier>{916c71b2-950b-4a5a-8ab7-d6af1c8f7a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XPI">
+      <UniqueIdentifier>{91a337fa-12ba-4407-a7eb-af39a2975f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Color Support\Header Files">
+      <UniqueIdentifier>{a9994450-a805-4db9-bad9-5fb49925308b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Color Support\Source Files">
+      <UniqueIdentifier>{999cfaf8-4579-4bae-8074-b0f4878a21d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical Header\Header Files">
+      <UniqueIdentifier>{cf4df8d5-ceda-4b22-b5ea-3503a6bbff5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook Manager\Header Files">
+      <UniqueIdentifier>{4238730f-29f3-4612-ae00-a5f4bb58d750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instance Manager\Header Files">
+      <UniqueIdentifier>{387bf066-3abe-4b90-9b37-83141c4605dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging Support\Header Files">
+      <UniqueIdentifier>{3b3c2bad-b593-4999-a42f-b556b7551080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XPI\Header Files">
+      <UniqueIdentifier>{e4506542-f88a-4fe2-9a7f-d75371f21ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet Support\Header Files">
+      <UniqueIdentifier>{28ca635e-4552-435e-aa0d-fad862fe42ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String Support\Header Files">
+      <UniqueIdentifier>{69ba5b28-de8e-4916-875c-478d98e81733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="String Support\Source Files">
+      <UniqueIdentifier>{274492be-fd24-4749-9d1d-29d877fdc218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet Support\Source Files">
+      <UniqueIdentifier>{f33559e7-7ef9-44a5-ba59-a34074568d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XPI\Source Files">
+      <UniqueIdentifier>{70cdd7b0-4382-4703-ba4b-a60aa89eed3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging Support\Source Files">
+      <UniqueIdentifier>{32f33f17-539b-492b-b3db-fbc55c898372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instance Manager\Source Files">
+      <UniqueIdentifier>{bc498ccc-2afc-4e91-9d5a-ce7310ee5dbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook Manager\Source Files">
+      <UniqueIdentifier>{679da50c-bf85-4b26-9371-05dc6711be14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphical Header\Source Files">
+      <UniqueIdentifier>{a3ad35a1-62f7-4ca4-800b-ced7bc945a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Main Window">
+      <UniqueIdentifier>{46a03816-3324-4d25-ba94-21b44f865679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Pop-ups">
+      <UniqueIdentifier>{b0fabf79-5d81-4d4d-88d1-b8caea4b9f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Tabs">
+      <UniqueIdentifier>{0e85b198-706f-4df5-a93b-c3f9f92e9d7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Pop-ups\Packet Information">
+      <UniqueIdentifier>{b1af5c3a-478e-4ab6-b524-44de8c19661a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Pop-ups\Spam Packet">
+      <UniqueIdentifier>{589635ae-22ce-4c32-ad38-c2c12fcbfb97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Main Window\Header Files">
+      <UniqueIdentifier>{6f4ef3b2-a2bb-494e-a8a1-bedf4aea1df9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Main Window\Source Files">
+      <UniqueIdentifier>{128bbb98-8f5d-4e37-880d-d4eca35beaed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Pop-ups\Spam Packet\Source Files">
+      <UniqueIdentifier>{f1d7eb87-0e35-4b98-aad8-f21adae68483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Pop-ups\Packet Information\Source Files">
+      <UniqueIdentifier>{09c12217-8f02-43b5-9a08-d1ffb3f6cd67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Pop-ups\Spam Packet\Header Files">
+      <UniqueIdentifier>{737b4f77-2379-4d8b-8abd-fa661e2c6632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Pop-ups\Packet Information\Header Files">
+      <UniqueIdentifier>{3cd49ebe-3aab-4ea5-be3e-89803d3b8c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Tabs\Formatted View">
+      <UniqueIdentifier>{04d746ab-d97d-4c11-ae35-f8ec0fd02b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Tabs\Plain View">
+      <UniqueIdentifier>{7c925a86-504a-4fd8-9116-f7c7d110f777}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Tabs\Settings">
+      <UniqueIdentifier>{69c6c982-d514-4606-8c7d-7bed7e2480a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Tabs\Formatted View\Header Files">
+      <UniqueIdentifier>{a15077b2-1800-41ee-a85e-5efb9e4d650e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Tabs\Formatted View\Source Files">
+      <UniqueIdentifier>{4561041d-b775-4f54-a2be-cc2f4d3dbe99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Tabs\Plain View\Header Files">
+      <UniqueIdentifier>{f6021e06-d8d2-4f97-a9b3-3d6e7877c176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Tabs\Plain View\Source Files">
+      <UniqueIdentifier>{c4b26d59-7d3f-4f54-8dc6-60b63c3e125a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Tabs\Settings\Main Settings">
+      <UniqueIdentifier>{21cc105a-1fd4-41c1-9fb7-7b95ddd27eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Tabs\Settings\Pages">
+      <UniqueIdentifier>{78fef2d4-6c8c-49c1-a5c9-92f96c32fbb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Tabs\Settings\Pages\Packet Settings">
+      <UniqueIdentifier>{f80e802f-5dbc-4980-915d-82fc7875b01e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Tabs\Settings\Pages\Packet Settings\Header Files">
+      <UniqueIdentifier>{06aaf8da-ab8e-4e07-8eac-8f163cda6099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Tabs\Settings\Main Settings\Header Files">
+      <UniqueIdentifier>{33c01b4b-ef1a-4b7b-827f-756bdaf09e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Tabs\Settings\Main Settings\Source Files">
+      <UniqueIdentifier>{ee6077d4-8218-489c-9dd1-a2480b05393f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Interface\Tabs\Settings\Pages\Packet Settings\Source Files">
+      <UniqueIdentifier>{9bbf95f0-dfba-4034-aa12-2877197a229c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XPI\Resource Files">
+      <UniqueIdentifier>{20c56bff-a584-4e7a-9482-27ef787686a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XPI\Resource Files\Fonts">
+      <UniqueIdentifier>{02007d87-fa83-4cc0-8032-4d1a308c6351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XPI\Resource Files\Icons">
+      <UniqueIdentifier>{ba715455-936b-4483-afbf-ab255912230b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XPI\Resource Files\Images">
+      <UniqueIdentifier>{df93165c-8970-45e9-92e5-9e654a3f4774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{e5ad704f-c4fc-4fdf-8087-bd3337381235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Header Files">
+      <UniqueIdentifier>{9ae4496a-de91-497c-b68c-9c94d7f009f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks\Source Files">
+      <UniqueIdentifier>{e9fc46ce-7f8f-4a34-8f35-5a14f30bd17a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="XPIColors.h">
+      <Filter>Color Support\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CHeader.hpp">
+      <Filter>Graphical Header\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CHookManager.hpp">
+      <Filter>Hook Manager\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CInstanceManager.hpp">
+      <Filter>Instance Manager\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLog.hpp">
+      <Filter>Logging Support\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMaplePacket.hpp">
+      <Filter>Packet Support\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceString.hpp">
+      <Filter>String Support\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainWindow.hpp">
+      <Filter>User Interface\Main Window\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpamPacket.hpp">
+      <Filter>User Interface\Pop-ups\Spam Packet\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPacketInfo.hpp">
+      <Filter>User Interface\Pop-ups\Packet Information\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormattedInject.hpp">
+      <Filter>User Interface\Tabs\Formatted View\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFormattedView.hpp">
+      <Filter>User Interface\Tabs\Formatted View\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlainView.hpp">
+      <Filter>User Interface\Tabs\Plain View\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMainSettings.hpp">
+      <Filter>User Interface\Tabs\Settings\Main Settings\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSettingsPacket.hpp">
+      <Filter>User Interface\Tabs\Settings\Pages\Packet Settings\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="extvars.hpp">
+      <Filter>XPI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FindPattern.h">
+      <Filter>XPI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>XPI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XPI.hpp">
+      <Filter>XPI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XPIConfig.h">
+      <Filter>XPI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XPIUtilities.hpp">
+      <Filter>XPI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>XPI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>XPI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPacket.hpp">
+      <Filter>Hooks\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Hooks\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="XPIColors.cpp">
+      <Filter>Color Support\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CHeader.cpp">
+      <Filter>Graphical Header\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CHookManager.cpp">
+      <Filter>Hook Manager\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CInstanceManager.cpp">
+      <Filter>Instance Manager\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLog.cpp">
+      <Filter>Logging Support\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMaplePacket.cpp">
+      <Filter>Packet Support\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CResourceString.cpp">
+      <Filter>String Support\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainWindow.cpp">
+      <Filter>User Interface\Main Window\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpamPacket.cpp">
+      <Filter>User Interface\Pop-ups\Spam Packet\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPacketInfo.cpp">
+      <Filter>User Interface\Pop-ups\Packet Information\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormattedInject.cpp">
+      <Filter>User Interface\Tabs\Formatted View\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFormattedView.cpp">
+      <Filter>User Interface\Tabs\Formatted View\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlainView.cpp">
+      <Filter>User Interface\Tabs\Plain View\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainSettings.cpp">
+      <Filter>User Interface\Tabs\Settings\Main Settings\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSettingsPacket.cpp">
+      <Filter>User Interface\Tabs\Settings\Pages\Packet Settings\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="extvars.cpp">
+      <Filter>XPI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindPattern.cpp">
+      <Filter>XPI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XPI.cpp">
+      <Filter>XPI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XPIConfig.cpp">
+      <Filter>XPI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XPIUtilities.cpp">
+      <Filter>XPI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>XPI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPacket.cpp">
+      <Filter>Hooks\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Hooks\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="XPI.rc">
+      <Filter>XPI\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="consolas.ttf">
+      <Filter>XPI\Resource Files\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="clear_lists.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="clear_lists_large.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="color_black.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="color_blue.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="color_gray.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="color_green.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="color_orange.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="color_purple.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="color_red.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="icon.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="icon_small.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="inject_in.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="inject_out.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="pause.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="resume.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="stop.ico">
+      <Filter>XPI\Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="packet_options.png">
+      <Filter>XPI\Resource Files\Images</Filter>
+    </Image>
+    <Image Include="directions.bmp">
+      <Filter>XPI\Resource Files\Images</Filter>
+    </Image>
+    <Image Include="formatted_list.bmp">
+      <Filter>XPI\Resource Files\Images</Filter>
+    </Image>
+    <Image Include="packet_states.bmp">
+      <Filter>XPI\Resource Files\Images</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

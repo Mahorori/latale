@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="client">
+      <UniqueIdentifier>{d5b310c4-cfe9-468d-80d7-452e01b571ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\login">
+      <UniqueIdentifier>{634c1ed5-be43-45d8-b27e-1eacb789e76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\statistics">
+      <UniqueIdentifier>{86215b07-d428-47fe-b31d-a0acaed61f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hook">
+      <UniqueIdentifier>{81f5bb41-c91e-4c40-b22f-8075d8a7dd9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{ad8d2f59-5c4d-4eaa-910c-283d7c56e836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{fa35c5fc-b354-4524-9c56-dbe28df60673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{1eb80701-3db4-4164-b410-a2d3fb796c4f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{aad08a46-a545-4919-8c77-f929b7494002}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="ui\tab">
+      <UniqueIdentifier>{9326a169-e0ae-476a-ba81-f2965d0306ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\main">
+      <UniqueIdentifier>{16cdd53b-767b-4aec-b1b4-816b5a23523a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\tab\login">
+      <UniqueIdentifier>{4f61962b-4673-4b4b-ae40-99f52c55bf03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\tab\bot">
+      <UniqueIdentifier>{cf8e36f7-ef26-474f-8b41-3e1c7988a017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\tab\hack">
+      <UniqueIdentifier>{1e58c33c-4970-4375-84e8-027c5fa23ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="client\item">
+      <UniqueIdentifier>{71c5fffd-dca5-4694-9820-67dc5ee46cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\popup">
+      <UniqueIdentifier>{0b93d191-93b6-453b-a7bf-f10f46df8bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="setting">
+      <UniqueIdentifier>{505b6e12-8a86-46dd-bf12-c827c4f099eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\tab\oprst">
+      <UniqueIdentifier>{5ad48c7c-7389-4adc-9e26-7c17674c75a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="autologin.cpp">
+      <Filter>client\login</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers.cpp">
+      <Filter>client\statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="detour.cpp">
+      <Filter>hook</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CMainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CMainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CMainWindow.cpp">
+      <Filter>ui\main</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CLoginTab.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CLoginTab.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoginTab.cpp">
+      <Filter>ui\tab\login</Filter>
+    </ClCompile>
+    <ClCompile Include="CBotTab.cpp">
+      <Filter>ui\tab\bot</Filter>
+    </ClCompile>
+    <ClCompile Include="CHackTab.cpp">
+      <Filter>ui\tab\hack</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CHackTab.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CBotTab.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CHackTab.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CBotTab.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="loot.cpp">
+      <Filter>client\item</Filter>
+    </ClCompile>
+    <ClCompile Include="CInventoryWindow.cpp">
+      <Filter>ui\popup</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CInventoryWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CItemModel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CItemModel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemModel.cpp">
+      <Filter>ui\tab\bot</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CInventoryWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>client\statistics</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserData.cpp">
+      <Filter>ui\tab\login</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CUserData.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CUserData.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="CSettings.cpp">
+      <Filter>setting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_COptionRefreshTab.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="COptionRefreshTab.cpp">
+      <Filter>ui\tab\oprst</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_COptionRefreshTab.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="oprst.cpp">
+      <Filter>client\item</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="autologin.h">
+      <Filter>client\login</Filter>
+    </ClInclude>
+    <ClInclude Include="pointers.h">
+      <Filter>client\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>client\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="detour.h">
+      <Filter>hook</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="loot.h">
+      <Filter>client\item</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>client\statistics</Filter>
+    </ClInclude>
+    <ClInclude Include="CSettings.h">
+      <Filter>setting</Filter>
+    </ClInclude>
+    <ClInclude Include="oprst.h">
+      <Filter>client\item</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMainWindow.hpp">
+      <Filter>ui\main</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CLoginTab.hpp">
+      <Filter>ui\tab\login</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CHackTab.hpp">
+      <Filter>ui\tab\hack</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CBotTab.hpp">
+      <Filter>ui\tab\bot</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CInventoryWindow.hpp">
+      <Filter>ui\popup</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CItemModel.hpp">
+      <Filter>ui\tab\bot</Filter>
+    </CustomBuild>
+    <CustomBuild Include="CUserData.hpp">
+      <Filter>ui\tab\login</Filter>
+    </CustomBuild>
+    <CustomBuild Include="COptionRefreshTab.hpp">
+      <Filter>ui\tab\oprst</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

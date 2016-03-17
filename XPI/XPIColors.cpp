@@ -1,0 +1,16 @@
+#include "stdafx.h"
+
+#include "XPIColors.h"
+
+#include "resource.h"
+
+const XPI_COLOR_INFO g_XPIColors[] =
+{
+	{ IDI_COLOR_BLACK,	IDS_COLOR_BLACK,	RGB(0x00, 0x00, 0x00) },
+	{ IDI_COLOR_GRAY,	IDS_COLOR_GRAY,		RGB(0x66, 0x66, 0x66) },
+	{ IDI_COLOR_RED,	IDS_COLOR_RED,		RGB(0xDD, 0x00, 0x00) },
+	{ IDI_COLOR_ORANGE, IDS_COLOR_ORANGE,	RGB(0xFF, 0x7F, 0x00) },
+	{ IDI_COLOR_GREEN,	IDS_COLOR_GREEN,	RGB(0x0F, 0xB0, 0x00) },
+	{ IDI_COLOR_BLUE,	IDS_COLOR_BLUE,		RGB(0x00, 0x7F, 0xC0) },
+	{ IDI_COLOR_PURPLE,	IDS_COLOR_PURPLE,	RGB(0x7F, 0x00, 0xD0) }
+};

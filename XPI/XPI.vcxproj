@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6CFFF3B2-8CB1-4453-9DA1-BBD5DA804D27}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>XPI</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;XPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>C:\libs\boost\boost-1_60\include;C:\libs\Detours Express 3.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalOptions> /MP4 %(AdditionalOptions)</AdditionalOptions>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\libs\boost\boost-1_60\stage\x86\lib;C:\libs\Detours Express 3.0\lib.X86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;XPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>C:\libs\boost\boost-1_60\include;C:\libs\Detours Express 3.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions> /MP4 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\libs\boost\boost-1_60\stage\x86\lib;C:\libs\Detours Express 3.0\lib.X86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CFormattedView.cpp" />
+    <ClCompile Include="CHeader.cpp" />
+    <ClCompile Include="CHookManager.cpp" />
+    <ClCompile Include="CInstanceManager.cpp" />
+    <ClCompile Include="CLog.cpp" />
+    <ClCompile Include="CMainSettings.cpp" />
+    <ClCompile Include="CMainWindow.cpp" />
+    <ClCompile Include="CMaplePacket.cpp" />
+    <ClCompile Include="CPacket.cpp" />
+    <ClCompile Include="CPacketInfo.cpp" />
+    <ClCompile Include="CPlainView.cpp" />
+    <ClCompile Include="CResourceString.cpp" />
+    <ClCompile Include="CSettingsPacket.cpp" />
+    <ClCompile Include="CSpamPacket.cpp" />
+    <ClCompile Include="extvars.cpp" />
+    <ClCompile Include="FindPattern.cpp" />
+    <ClCompile Include="FormattedInject.cpp" />
+    <ClCompile Include="Hooks.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="XPI.cpp" />
+    <ClCompile Include="XPIColors.cpp" />
+    <ClCompile Include="XPIConfig.cpp" />
+    <ClCompile Include="XPIUtilities.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CFormattedView.hpp" />
+    <ClInclude Include="CHeader.hpp" />
+    <ClInclude Include="CHookManager.hpp" />
+    <ClInclude Include="CInstanceManager.hpp" />
+    <ClInclude Include="CLog.hpp" />
+    <ClInclude Include="CMainSettings.hpp" />
+    <ClInclude Include="CMainWindow.hpp" />
+    <ClInclude Include="CMaplePacket.hpp" />
+    <ClInclude Include="CPacket.hpp" />
+    <ClInclude Include="CPacketInfo.hpp" />
+    <ClInclude Include="CPlainView.hpp" />
+    <ClInclude Include="CResourceString.hpp" />
+    <ClInclude Include="CSettingsPacket.hpp" />
+    <ClInclude Include="CSpamPacket.hpp" />
+    <ClInclude Include="extvars.hpp" />
+    <ClInclude Include="FindPattern.h" />
+    <ClInclude Include="FormattedInject.hpp" />
+    <ClInclude Include="Hooks.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="XPI.hpp" />
+    <ClInclude Include="XPIColors.h" />
+    <ClInclude Include="XPIConfig.h" />
+    <ClInclude Include="XPIUtilities.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="XPI.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="consolas.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="clear_lists.ico" />
+    <Image Include="clear_lists_large.ico" />
+    <Image Include="color_black.ico" />
+    <Image Include="color_blue.ico" />
+    <Image Include="color_gray.ico" />
+    <Image Include="color_green.ico" />
+    <Image Include="color_orange.ico" />
+    <Image Include="color_purple.ico" />
+    <Image Include="color_red.ico" />
+    <Image Include="directions.bmp" />
+    <Image Include="formatted_list.bmp" />
+    <Image Include="icon.ico" />
+    <Image Include="icon_small.ico" />
+    <Image Include="inject_in.ico" />
+    <Image Include="inject_out.ico" />
+    <Image Include="packet_options.png" />
+    <Image Include="packet_states.bmp" />
+    <Image Include="pause.ico" />
+    <Image Include="resume.ico" />
+    <Image Include="stop.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
